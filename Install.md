@@ -59,4 +59,6 @@ Test Youtube :
 
 ![VirtualBoxVM_i0bd5yKtk0.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_i0bd5yKtk0.png)
 
+Le client ne peut plus accéder à l'extérieur du LAN.  
+
 # Expliquer la règle de filtrage mise en place dans le bloc de texte solution de la quête
