@@ -29,7 +29,11 @@ Lors de la première connexion avec le compte "admin", le mot de passe est "pfse
 
 # Tester que la machine client peut accéder à l'extérieur
 
-![]()
+Test avec un ping de google (IPv4 et résolution de nom) :  
+
+![VirtualBoxVM_tsr6v0NEC1.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_tsr6v0NEC1.png)
+
+Les pings sont fonctionnels, la machine cliente peut donc accéder vers l'extérieur.  
 
 # Mettre en place une règle de filtrage réseau pour interdire à la machine client de sortir du réseau interne
 
