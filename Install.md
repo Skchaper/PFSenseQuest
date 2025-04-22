@@ -37,7 +37,17 @@ Les pings sont fonctionnels, la machine cliente peut donc accéder vers l'extér
 
 # Mettre en place une règle de filtrage réseau pour interdire à la machine client de sortir du réseau interne
 
+Pour cette partie, il faut ajouter une règle, ici sur l'interface LAN (celle qui gère le réseau interne), cliquer sur **Firewall** ==> **Rules** ==> **LAN** ==> **Add** :  
 
+![VirtualBoxVM_FkDpJoVrKi.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_FkDpJoVrKi.png)
+
+On souhaite bloquer l'accès à l'extérieur, dans le champ **Action**, sélectionner **Block**. Dans le champ **Interface** choisir **LAN**. Dans le champ **Address Family** choisir IPv4. Et enfin dans le champ **Protocol** sélectionner **TCP** :   
+
+![VirtualBoxVM_qMccQVoX97.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_qMccQVoX97.png)
+
+Dans la section **Source** sélectionner **LAN address**. Dans la section suivante **Destination** sélectionner **WAN subnets**. Dans la partie **Extra Options** cocher **Log packets that are handled by this rule** pour afficher les logs en lien avec cette règle :  
+
+![]()
 
 # Vérifier que la machine client ne peut plus communiquer avec l'extérieur, mais que le poste d'administration peut encore communiquer avec l'extérieur
 
