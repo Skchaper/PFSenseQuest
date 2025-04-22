@@ -21,7 +21,11 @@ On peut voir que le client Ubuntu a obtenu la première adresse IP de l'étendue
 
 ## Accès à l'interface web d'administration de pfSense
 
-![]()
+Dans un navigateur web, sur le client, taper l'adresse IP de l'interface LAN du pfSense :  
+
+![VirtualBoxVM_8Fhk07khMg.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_8Fhk07khMg.png)
+
+Lors de la première connexion avec le compte "admin", le mot de passe est "pfsense", il vous sera demandé de le modifier après la connexion réussie.  
 
 # Tester que la machine client peut accéder à l'extérieur
 
