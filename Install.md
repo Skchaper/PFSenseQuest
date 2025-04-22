@@ -17,6 +17,8 @@ ou la documentation officielle [ici](https://docs.netgate.com/pfsense/en/latest/
 
 ![]()
 
+On peut voir que le client Ubuntu a obtenu la première adresse IP de l'étendue DHCP de pfSense (192.168.1.100).  
+
 ## Accès à l'interface web d'administration de pfSense
 
 ![]()
