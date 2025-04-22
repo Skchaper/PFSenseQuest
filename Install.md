@@ -41,16 +41,22 @@ Pour cette partie, il faut ajouter une règle, ici sur l'interface LAN (celle qu
 
 ![VirtualBoxVM_FkDpJoVrKi.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_FkDpJoVrKi.png)
 
-On souhaite bloquer l'accès à l'extérieur, dans le champ **Action**, sélectionner **Block**. Dans le champ **Interface** choisir **LAN**. Dans le champ **Address Family** choisir IPv4. Et enfin dans le champ **Protocol** sélectionner **TCP** :   
+On souhaite bloquer l'accès à l'extérieur, dans le champ **Action**, sélectionner **Block**. Dans le champ **Interface** choisir **LAN**. Dans le champ **Address Family** choisir **IPv4**. Et enfin dans le champ **Protocol** sélectionner **Any** :   
 
 ![VirtualBoxVM_qMccQVoX97.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_qMccQVoX97.png)
 
-Dans la section **Source** sélectionner **LAN address**. Dans la section suivante **Destination** sélectionner **WAN subnets**. Dans la partie **Extra Options** cocher **Log packets that are handled by this rule** pour afficher les logs en lien avec cette règle :  
+Dans la section **Source** sélectionner **Address or Alias** et renseigner l'adresse IPv4 du client. Dans la section suivante **Destination** sélectionner **Any**. Dans la partie **Extra Options** cocher **Log packets that are handled by this rule** pour afficher les logs en lien avec cette règle :  
 
 ![VirtualBoxVM_RnXq8hkUfi.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_RnXq8hkUfi.png)
 
 # Vérifier que la machine client ne peut plus communiquer avec l'extérieur, mais que le poste d'administration peut encore communiquer avec l'extérieur
 
+Test d'un ping 8.8.8.8 et d'accès à Youtube par le navigateur :  
 
+![VirtualBoxVM_Cb08k2BC1r.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_Cb08k2BC1r.png)
+
+Test Youtube :  
+
+![VirtualBoxVM_i0bd5yKtk0.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_i0bd5yKtk0.png)
 
 # Expliquer la règle de filtrage mise en place dans le bloc de texte solution de la quête
