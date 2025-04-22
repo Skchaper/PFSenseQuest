@@ -62,3 +62,5 @@ Test Youtube :
 Le client ne peut plus accéder à l'extérieur du LAN.  
 
 # Expliquer la règle de filtrage mise en place dans le bloc de texte solution de la quête
+
+La règle de filtrage mise en place est très "barbare". En effet, on lui a demandé de bloquer les paquets arrivant du LAN en sélectionnant le protocol Internet : IPv4 et en choisissant tous les protocoles IP. Avec pour source le client Ubuntu et pour destination toutes les destinations.
