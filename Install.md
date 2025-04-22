@@ -47,7 +47,7 @@ On souhaite bloquer l'accès à l'extérieur, dans le champ **Action**, sélecti
 
 Dans la section **Source** sélectionner **LAN address**. Dans la section suivante **Destination** sélectionner **WAN subnets**. Dans la partie **Extra Options** cocher **Log packets that are handled by this rule** pour afficher les logs en lien avec cette règle :  
 
-![]()
+![VirtualBoxVM_RnXq8hkUfi.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_RnXq8hkUfi.png)
 
 # Vérifier que la machine client ne peut plus communiquer avec l'extérieur, mais que le poste d'administration peut encore communiquer avec l'extérieur
 
