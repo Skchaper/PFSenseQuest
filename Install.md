@@ -15,7 +15,7 @@ ou la documentation officielle [ici](https://docs.netgate.com/pfsense/en/latest/
 
 ## Attribution de l'adresse IP des clients via le DHCP de pfSense
 
-![]()
+![VirtualBoxVM_LdEGLAqs8W.png](https://github.com/Skchaper/PFSenseQuest/blob/main/Screens/pfSense_Install/VirtualBoxVM_LdEGLAqs8W.png)
 
 On peut voir que le client Ubuntu a obtenu la première adresse IP de l'étendue DHCP de pfSense (192.168.1.100).  
 
