@@ -8,7 +8,8 @@
 
 ## Installation
 
-Consulter ce [lien](https://www.it-connect.fr/installation-de-pfsense%EF%BB%BF/)
+Consulter ce [lien](https://www.it-connect.fr/installation-de-pfsense%EF%BB%BF/)  
+ou la documentation officielle [ici](https://docs.netgate.com/pfsense/en/latest/install/netinstaller.html)  
 
 # Configuration réseau valide permettant aux machines internes d’accéder à l'extérieur
 
